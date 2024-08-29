@@ -1,0 +1,33 @@
+body {
+    background-color: #111; /* Background color */
+    color: #fff;
+}
+
+.navbar {
+    padding: 20px 40px;
+    background-color: #111;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand .dot {
+    color: #ff3d00; /* Orange-red color for the dot */
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.nav-item .nav-link:last-child {
+    border-left: 1px solid #fff;
+    padding-left: 20px;
+}
+
+.nav-item .nav-link:hover {
+    color: #ff3d00; /* Orange-red color on hover */
+}
