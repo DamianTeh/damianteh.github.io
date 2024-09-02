@@ -1,20 +1,37 @@
+@font-face {
+    font-family: "Urbanist";
+    src: url('Fonts\Urbanist');
+    font-weight: 100;
+    font-style: normal;
+}
+
 body {
+    font-family: "Urbanist";
     background-color: #111; /* Background color */
     color: #fff;
+    margin: 0;
+    height: 100vh;
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top of other elements */
     padding: 20px 40px;
     background-color: #111;
 }
 
 .navbar-brand {
     font-size: 24px;
-    font-weight: bold;
+    color: #FFFFFF;
+    padding-right: 0px;
 }
 
 .navbar-brand .dot {
-    color: #ff3d00; /* Orange-red color for the dot */
+    color: #ff3d00;
+    padding-left: 0px /* Orange-red color for the dot */
 }
 
 .nav-item .nav-link {
@@ -23,11 +40,26 @@ body {
     padding-right: 20px;
 }
 
-.nav-item .nav-link:last-child {
-    border-left: 1px solid #fff;
-    padding-left: 20px;
-}
-
 .nav-item .nav-link:hover {
     color: #ff3d00; /* Orange-red color on hover */
 }
+
+.landing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.lead {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #aaa; /* Lighter color for the "A Final Year" and "student at" text */
+    display: inline-block; /* Keep text inline */
+}
+
+.font-weight-bold {
+    font-weight: 700; /* Bold weight for "Computer Science" and "Sunway University" */
+    color: #fff; /* Stronger color for emphasis */}
