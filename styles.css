@@ -7,9 +7,10 @@
 
 body {
     font-family: "Urbanist", sans-serif;
+    overflow-y: scroll; 
     background-color: #111;
     color: #fff;
-    margin: 0;
+    margin-top: 10vh;
     padding: 0;
 }
 
@@ -18,13 +19,14 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Ensure it stays on top of other elements */
+    height: 10vh;
+    z-index: 1000; 
     padding: 20px 40px;
-    background-color: #111;
+    background-color: rgba(17, 17, 17, 0.99); /* Black with 80% opacity */
 }
 
 .navbar-brand {
-    font-size: 26px;
+    font-size: 1.5rem;
     color: #FFFFFF;
     padding-right: 0px;
 }
@@ -36,7 +38,7 @@ body {
 
 .nav-item .nav-link {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.4rem;
     padding-right: 20px;
 }
 
@@ -116,4 +118,69 @@ footer {
     padding: 20px 0;
     background-color: #111;
     color: #aaa;
+}
+
+.title-section {
+    padding: 25px 50px 25px 50px;
+}
+
+.section-title {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section-title-description {
+    font-size: 1.5rem;
+}
+
+.projects-section {
+    padding: 0px;
+    background-color: #111;
+}   
+
+.project-item {
+    border-top: 2px solid #484E53;
+    border-bottom: 2px solid #484E53;
+    padding: 50px;
+    width: 100%;
+    border-top: 2px solid #484E53;
+}   
+
+.project-item-header {
+    padding-bottom: 20px
+}
+
+.project-item-title {
+    font-size: 3rem;
+    font-weight: 700
+}
+
+.project-item-text {
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.project-image {    
+    border-radius: 10px;
+    width: auto; 
+    height: auto;
+    max-height: 450px;
+}
+
+.view-more-btn {
+    background-color: #ddd;
+    color: #111;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.view-more-btn:hover {
+    background-color: #33aaff;
+    color: #fff;
 }
