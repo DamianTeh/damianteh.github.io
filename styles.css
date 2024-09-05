@@ -256,7 +256,6 @@ footer {
     align-items: center;
     background-color: transparent; 
     height: 85vh;
-    width: fit-content;
     border: none;
 }
 
@@ -268,10 +267,14 @@ footer {
 }
 
 .modal-image {
-    height: 85vh; 
+    max-height: 85vh; 
+    max-width: 100%; 
+    height: auto; 
     width: auto; 
-    margin: 0 auto;
+    margin: 0 auto; 
+    display: block; 
 }
+
 
 .container {
     display: flex;
