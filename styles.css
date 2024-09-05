@@ -132,6 +132,7 @@ footer {
 }
 
 .section-title-description {
+    padding: 0px 50px 0px 50px;
     font-size: 1.5rem;
 }
 
@@ -167,8 +168,14 @@ footer {
 .project-image {    
     border-radius: 10px;
     width: auto; 
-    height: auto;
-    max-height: 450px;
+    height: 450px;
+}
+
+.project-image-2 {
+    border-radius: 10px;
+    width: auto; 
+    height: 450px;
+    margin: 0px
 }
 
 .view-more-btn {
@@ -184,3 +191,100 @@ footer {
     background-color: #33aaff;
     color: #fff;
 }
+
+.passions-page {
+    background-color: #fff;
+    color: #000; 
+}
+
+.passions-page .navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.passions-page .navbar-brand, 
+.passions-page .nav-link {
+    color: #000; 
+}
+
+.passions-page .nav-link:hover {
+    color: #ff3d00; 
+}
+
+.passion-title{
+    border-top:2px solid #000;
+    font-size: 3rem;
+    padding: 25px 50px 25px 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.passions-page h1,
+.passions-page h2,
+.passions-page p {
+    color: #000; 
+}
+
+.passions-page footer{
+    background-color: #fff;
+    color: #000
+}
+
+.passions-image-caption{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-top: 10px;
+    max-width: 50vh;
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+    height: 85vh;
+    width: fit-content;
+    border: none;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.modal-image {
+    height: 85vh; 
+    width: auto; 
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap into rows */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+}
+
+.gallery-image {
+    width: 50vh;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers each individual image vertically */
+    margin-bottom: 20px; /* Optional: Adds spacing between rows */
+}
+
+
