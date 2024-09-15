@@ -26,7 +26,7 @@ body {
     background-color: rgba(17, 17, 17, 0.99); /* Black with 80% opacity */
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 
     .navbar-brand {
         display: block;
